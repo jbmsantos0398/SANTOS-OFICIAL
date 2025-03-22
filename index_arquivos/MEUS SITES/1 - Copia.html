@@ -436,12 +436,11 @@ function openPage(pageName,elmnt,color) {
 }
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
-</script></body></html> 
-
-</div><div class="w3-main" style="margin-left:320px">
-<div class="w3-BLUE"><button class="w3-button w3-BLUE w3-xlarge w3-hide-large" onclick="w3_open()"><FONT SIZE=+3><B>&#9776; CATEGORIAS &#9776;</B></FONT></button><div class="w3-container">
-
-</div></div>
+</script></body></html></div><div class="w3-main" style="margin-left:320px"><div class="w3-BLUE">
+<!----------------------------------------
+<button class="w3-button w3-BLUE w3-xlarge w3-hide-large" onclick="w3_open()"><FONT SIZE=+3><B>&#9776; CATEGORIAS &#9776;</B></FONT></button>
+------------------------------------------>
+<div class="w3-container"></div></div>
 <!-----------------------------------------
 <div class="w3-container">
 ------------------------------------------>
@@ -530,6 +529,169 @@ document.write('  '+todaysDate);
 <!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!--##############################################################################-->
+<!--##############################################################################-->
+<!---------------------------------------------------------------------------------->
+<!DOCTYPE html><html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1"><style>
+body {margin:0;}
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 0px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.main {
+  padding: 0px;
+  margin-top: 30px;
+  height: 500px; /* Used in this example to enable scrolling */
+}
+</style></head><body><div class="navbar"><input type="text" id="myInput" onkeyup="myFunction()" placeholder="PESQUISA NESSA PÁGINA" title="PESQUISA NESSA PÁGINA"></div><div class="main"><!DOCTYPE html><html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1"><style>
+* {
+  box-sizing: border-box;
+}
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 12px solid red;
+  margin-bottom: 12px;
+}
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: transparent;
+  padding: 3px;
+  text-decoration: none;
+  font-size: 18px;
+  color: blue;
+  display: block
+}
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+</style></head><body><ul id="myUL"><BR/><BR/>
+<!------------------------------------------------------------------>
+<!------------------------------------------------------------------>
+<!------------------------------------------------------------------>
+<!------------------------------------------------------------------>
+<!------------------------------------------------------------------>
+<!------------------------------------------------------------------>
+<!----------------------------- _self ------ _blank ---------------->
+<!-----------------------------------
+<h1><center>LINKS DE TUDO UM POUCO</center></h1>
+<!------------------------------------------------------------------>
+<li><a href="
+LINK🔴
+" target="_blank"><button class="button button3">
+NOME🔴
+</button></a></li>
+<!------------------------------------------------------------------>
+<li><a href="
+LINK🔴
+" target="_blank"><button class="button button3">
+NOME🔴
+</button></a></li>
+<!------------------------------------------------------------------>
+<li><a href="
+LINK🔴
+" target="_blank"><button class="button button3">
+NOME🔴
+</button></a></li>
+<!------------------------------------------------------------------>
+<li><a href="
+LINK🔴
+" target="_blank"><button class="button button3">
+NOME🔴
+</button></a></li>
+<!------------------------------------------------------------------>
+
+
+
+
+<li><a href="
+LINK🔴
+" target="_blank"><button class="button button3">
+NOME🔴
+</button></a></li>
+<!------------------------------------------------------------------>
+<li><a href="
+LINK🔴
+" target="_blank"><button class="button button3">
+NOME🔴
+</button></a></li>
+<!------------------------------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------------------------>
+<!------------------------------------------------------------------>
+<!------------------------------------------------------------------>
+<!------------------------------------------------------------------>
+<!------------------------------------------------------------------>
+<!------------------------------------------------------------------>
+</ul><script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script></body></html>
+<!---------------------------------------------------------------------------------->
+<!--##############################################################################-->
+<!--##############################################################################-->
+<!--####################################   FIM   ################################-->
+<!--##############################################################################-->
+<!--##############################################################################-->
 <!---------------------------------------------------------------------------------->
 
 
